@@ -1,5 +1,7 @@
 package com.leetcode.MainTry;
 
+import com.leetcode.Utils.ListNode;
+
 /**
  * Given a singly linked list, determine if it is a palindrome.
  *

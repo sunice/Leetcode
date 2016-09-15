@@ -1,4 +1,4 @@
-package com.leetcode.MainTry;
+package com.leetcode.Utils;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -9,10 +9,10 @@ import java.util.Queue;
  * Created by Yan on 12/1/15.
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+    public TreeNode(int x) {
         val = x;
     }
 
@@ -20,7 +20,7 @@ public class TreeNode {
      * input example: {1, 2, null, 3, null}
      */
     public static TreeNode deserialize(Integer[] array) {
-        if (array.length == 0)
+        if (array == null || array.length == 0)
             return null;
         Queue<TreeNode> nodes = new LinkedList<>();
         TreeNode root = new TreeNode(array[0]);

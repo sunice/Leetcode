@@ -1,5 +1,7 @@
 package com.leetcode.MainTry;
 
+import com.leetcode.Utils.TreeNode;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -43,6 +45,6 @@ public class BinaryTreePaths {
         BinaryTreePaths test = new BinaryTreePaths();
         Integer[] array = {1, 2, 3, null, 5, null, null};
         TreeNode root = TreeNode.deserialize(array);
-        System.out.println(test.binaryTreePaths(root));
+        System.out.println(binaryTreePaths(root));
     }
 }

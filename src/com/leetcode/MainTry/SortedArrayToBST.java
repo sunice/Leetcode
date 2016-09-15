@@ -1,5 +1,7 @@
 package com.leetcode.MainTry;
 
+import com.leetcode.Utils.TreeNode;
+
 /**
  * Created by Yan on 2/14/16.
  */
