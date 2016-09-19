@@ -1,4 +1,4 @@
-package com.leetcode.Utils;
+package com.leetcode.utils;
 
 /**
  * Definition for singly-linked list
